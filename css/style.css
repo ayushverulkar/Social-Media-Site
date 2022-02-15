@@ -58,9 +58,9 @@ header .logo{
 .comment-form .form-inline{
     width: 100%;
 }
-.comment-form input[type='text']{
+/* .comment-form input[type='text']{
     width: 100%;
-}
+} */
 .comment-avatar img{
     width: 40px;
     margin: 5px;
@@ -106,6 +106,34 @@ header .logo{
     margin-bottom: 5px;
 }
 
+
+.profile ul{
+    margin-top: 30px;
+    
+}
+.profile li{
+    list-style: none;
+    line-height: 1.9em;
+}
+
+
+.photos{
+    margin: 0;
+    padding: 0%;
+}
+.photos li{
+    list-style: none;
+    float: left;
+    margin: 5px;
+    width: 23%;
+    transition: 0.5s ease-in-out;
+}
+.photos li:hover{
+    filter: brightness(80%);
+}
+.photos img{
+    width: 100%;
+}
 footer{
     background-color: lightgrey;
     height: 90px;
